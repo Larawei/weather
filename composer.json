@@ -1,0 +1,26 @@
+{
+    "name": "larawei\/weather",
+    "description": "A weather SKD for Amap",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LaraWei",
+            "email": "764098204@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Larawei\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Larawei\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
